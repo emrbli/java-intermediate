@@ -33,7 +33,7 @@ public class Ornek1607 {//1 den 10 a kadar sayıların toplamı.
     //f(8): 8+f(9)
     //f(9): 9+f(10)
     //f(10): 10
-    /*recersuve fonksiyonda şartları girdik eğer 10 değilse 2. return komutunu girdi
+    /*recursuve fonksiyonda şartları girdik eğer 10 değilse 2. return komutunu girdi
     ve f(10) u bulmaya çalıştı.
     */
     
