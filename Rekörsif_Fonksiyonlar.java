@@ -9,16 +9,21 @@ package ornek.pkg16.pkg07;
  *
  * @author Kemal
  */
-public class Ornek1607 {
+public class Ornek1607 {//1 den 10 a kadar sayıların toplamı.
 
     /**
      * @param args the command line arguments
      */
     public static int f(int x)
-    {
-        if(x==10) return 10;
-        System.out.println("x: "+x);
-        return x+f(x+1);
+    {//burada if koyarsak else koymak mecburdur çünkü iki defa return etmiş oluruz.
+        if(x==10){
+             System.out.println("x: "+x);
+            return 10;
+        }else{
+           System.out.println("x: "+x);
+           return x+f(x+1); 
+        }    
+        
     }
     //f(0): 0+f(1)
     //f(1): 1+f(2)
