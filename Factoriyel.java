@@ -21,7 +21,7 @@ public class Faktoriyel {
     {
         int b =1;
     
-    for(int i=2;i<=num;i++)
+    for(int i=2;i<=num;i++)//2 ile başlamamızın sebebi 0 ile sıfırlamamak 1 ile tekrarlamamak.
       {
         b=i*b;
         
