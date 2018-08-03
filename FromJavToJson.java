@@ -32,7 +32,7 @@ public class FromJavaToJson {
         person2.setCity("Arsenal");
         
         Person person3 =new Person();
-        person3.setName("Zinedine");
+        person3.setName("Zinedine"); 
         person3.setSurname("Zidane");
         person3.setCity("Madrid");
           
