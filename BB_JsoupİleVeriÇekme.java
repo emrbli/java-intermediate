@@ -2,14 +2,15 @@
 
 
 
-/*
+/* 
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.mycompany.broadcast;
+package com.mycompany.broadcast;        
 
-
+     
+     
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
@@ -35,7 +36,7 @@ public class JsoupUsage {
             Elements broadcasts = document.select("#day-060818");//burada gireceğimiz günü belirten divin ismini yazdık.
             
                 for (Element element : broadcasts) {
-                    
+                     
                 Broadcast broadcast = new Broadcast();    
                 broadcast.setTime(element.getElementsByClass("time").text()+"\n");
                 broadcast.setTitle(element.getElementsByClass("title").text()+"\n");
